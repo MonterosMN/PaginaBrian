@@ -1,0 +1,197 @@
+/*----------------menu-------------------------*/
+body{
+	margin:0;
+}
+*{
+	box-sizing:  border-box;
+	font-family: century gothic;
+}
+/*
+.margin{
+	margin:15px;
+	border:10px;
+}
+*/
+.nav-bar{
+	background:#AC8D8D;
+	padding: 20px;
+	display: block;
+	color: white;
+	cursor: pointer;
+	font-size: 1.5em;
+	width: 100%;
+}
+.menu, .submenu{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.menu{
+	background:#AC8D8D;
+	width: 100%;
+	margin-left: -100%;/*3 de iquierda a derecha*/
+	transition: all 0.5s;/*desplega el menu/*/
+}
+.menu__link{
+	display: block;
+	padding: 20px;
+	color: white;
+	font-size: 1.2em;
+	text-decoration: none;
+}
+.menu__link:hover{
+	background:#a9567c;
+}
+.submenu .menu__link:hover{
+	background:#a9567c;
+}
+.submenu{ 
+	height: 0;
+	overflow: hidden;/*no se vea*/
+	transition: all 0.3s;
+}
+
+.submenu .menu__link{
+	background:#5988A6;
+	padding-left: 50px;
+}
+.mostrar { 
+	margin-left: 0;
+
+}
+
+@media(min-width:1024px){
+
+	.nav-bar{
+		display: none;
+	}
+	.menu{
+		margin-left: 0;
+		display: flex;/*horizontal*/
+	}
+	.container-submenu{
+		position: :relative;
+	}
+	.submenu{
+		position: absolute;
+		top: 60px;
+		width: 200px;
+		overflow: visible;
+		z-i ndex: 1000;  /*rebatible*/
+		opacity: 0;
+		visibility: hidden;
+	}
+	.container-submenu:hover .submenu{
+		opacity: 1;
+		visibility: visible;
+
+	}
+}
+/*----------------menu-------------------------*/
+/*---------------los 90------------------------*/
+.hola{
+	text-align:center;
+	font-size:35px;
+}
+.contenedor-a{
+	display:flex;
+	text-align:center;
+	justify-content:space-around;
+}
+.contenedor-b{
+	border:solid;
+	border-width:1px;
+	border-color:#D3CDCC;
+	text-align:center;
+	background-color:#F1F1F1;
+	display:inline-table;
+	
+}
+.contenedor-d{
+	text-align:center;
+	font-size:20px;
+}
+.contenedor-1{
+	color:green;
+	text-align:left;
+}
+.contenedor-c{
+	text-align:left;
+	font-size:18px;
+	float:15px;
+	width:auto;
+}
+.contenedor-f{
+	font-size:20px;
+	text-decoration:none; /*saca los surrallado */
+	text-align:center;
+	margin:20px;
+	background-color:#FF9300;
+	float: 15px;
+	width: auto;
+	left:  15px;
+	padding:10px;
+}
+.Contenedor1{
+	color:white;/* define un color*/
+	text-decoration:none;/**/
+	font-size:27px;/*define*/
+}
+.contenedor-4{
+	text-align:left;
+	display:inline-flex;
+	margin-left:15px;
+	margin-bottom:15px;
+}
+.contenedor-1-4{
+	text-align:left;
+	margin-left:15px;
+	margin-bottom:15px;
+	color:green;
+}
+.contenedor-1-5{
+	background-color:#2E2B2A  ;
+	padding:20px;
+}
+
+/**.......................Inicio....................................................*/
+.Contenedor{
+	margin:0 auto;/*sirve para asirnar un margen*/
+	color:black; /*aplica un color */
+	width:auto; /*aplica un maximo de 1200px*/
+	padding:10px;
+	background-color:#2E2B2A;
+}
+
+.Contenedor-barra{
+	height:100%; /*Define un alto*/
+	display:flex;/*alinear los elementos */
+	justify-content:space-between;/*para justificar */
+}
+
+.Navegacion a {
+	color:white;/* define un color*/
+	text-decoration:none;/**/
+	font-size:20px;/*define el tamaño de la letra*/
+	padding:3px;
+
+}
+.Navegacion a:hover{
+	color:red;
+}
+
+/*......................Barra...................*/
+
+.center{
+	font-size:17px;
+	text-align:center;
+}
+.lion{
+}
+h1{
+	font-weight: normal;
+}
+h2{
+	font-weight:normal;
+}
+/*------------------los 90---------------------*/

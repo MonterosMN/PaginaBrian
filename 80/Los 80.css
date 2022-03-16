@@ -1,0 +1,620 @@
+header{
+      background:#3B3C3B;
+      width:100%;
+      height:120px;
+
+    }
+header nav a:hover{
+    background:black;
+    border-radius:100px;
+}
+
+nav{
+    float:right;
+    margin-top:18px;
+}
+header img{
+    padding:20px 20px;
+}
+nav a{
+    color:white;
+    text-decoration:none;
+    font-family:arial;
+    font-size:18px;
+    display:inline-block;
+    margin-left:30px;
+    margin-top:10px;
+    padding:10px 20px;  
+    webkit-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition:all 500ms ease;
+        }
+
+        /*.............................................................................*/
+    footer{
+       background:#3B3C3B;
+       width:100%;
+       height:40px;
+       align-self:flex-end;
+       padding:1em;
+    }
+    footer p{
+      float:right;
+      font-family:arial;
+      font-size:15px;
+    }
+    footer a{
+      color:white;
+      float:left;
+      font-family:arial;
+      font-size:15px;
+      padding:5px;
+      webkit-transition:all 500ms ease;
+      -o-transition:all 500ms ease;
+      transition:all 500ms ease;
+      text-decoration:none;
+      margin-right:20px;
+    }
+    footer a:hover{
+      background:black;
+      border-radius:100px;
+    }
+    h1{
+        text-align:center;
+        font-size:2.5em;
+    }
+    .corpo{
+        width:960px;
+        margin:auto;
+    }
+    .tytle{
+        display:table-cell;
+        float:right;
+        position:relative;
+        left:-180px;
+        top:-15px;
+        
+    }
+    .is{
+        display:table;
+
+    }
+    .imag{
+        display:table-cell;
+        float:left;
+        margin-right:25px;
+        box-sizing:border-box;
+    }
+    .text{
+        display:table-cell;
+        float:left;
+        width:440px;
+        font-family:arial;
+        position:relative;
+        top:-15px;
+    }
+    .imag img{
+        padding:px;
+        height:350px;
+    }
+    .p h2{
+        background-color:#1B901F;
+        width:150px;
+        height:5px;
+        position:relative;
+        left:490px;
+        top:25px;
+    }
+    .tytle2{
+        display:table-cell;
+        float:right;
+        position:relative;
+        top:-15px;
+        left:-100px;
+        
+    }
+    .is2{
+        display:table;
+        position: 
+
+    }
+    .imag2{
+        display:table-cell;
+        float:left;
+        margin-right:25px;
+        box-sizing:border-box;
+    }
+    .text2{
+        display:table-cell;
+        float:left;
+        width:440px;
+        position:relative;
+        top:-8px;
+        left:-1px;
+        font-family:arial;
+
+    }
+     p  dylan{
+        color:green;
+    }
+    .imag2 img{
+        padding:px;
+        height:350px;
+    }
+    .r h2{
+        background-color:#1B901F;
+        width:150px;
+        height:5px;
+        position:relative;
+        left:490px;
+        top:30px;
+    }
+    .tytle3{
+        display:table-cell;
+        float:right;
+        position:relative;
+        top:-15px;
+        left:-100px;
+        
+    }
+    .is3{
+        display:table;
+
+    }
+    .imag3{
+        display:table-cell;
+        float:left;
+        margin-right:25px;
+        box-sizing:border-box;
+    }
+    .text3{
+        display:table-cell;
+        float:left;
+        width:440px;
+        font-family:arial;
+        position:relative;
+        top:-8px;
+        left:-1px;
+    }
+    .imag3 img{
+        height:350px;
+    }
+    .j h2{
+        background-color:#1B901F;
+        width:150px;
+        height:5px;
+        position:relative;
+        left:490px;
+        top:30px;
+    }
+
+    .tytle4{
+        display:table-cell;
+        float:right;
+        position:relative;
+        top:-15px;
+        left:-100px;
+        
+    }
+    .is4{
+        display:table;
+
+    }
+    .imag4{
+        display:table-cell;
+        float:left;
+        margin-right:25px;
+        box-sizing:border-box;
+    }
+    .text4{
+        display:table-cell;
+        float:left;
+        width:440px;
+        font-family:arial;
+        position:relative;
+        top:-8px;
+        left:-1px;
+    }
+    .imag4 img{
+        padding:px;
+        height:350px;
+    }
+    .corpo img{
+        padding-bottom:30px;
+    }
+    .d h2{
+        background-color:#1B901F;
+        width:150px;
+        height:5px;
+        position:relative;
+        left:490px;
+        top:30px;
+    }    
+/*
+}
+    .corpo{
+        width:960px;
+        margin:auto;
+    }
+    .tytle{
+        display:table-cell;
+        float:right;
+        position:relative;
+        left:-180px;
+        top:-15px;
+        
+    }
+    .is{
+        display:table;
+
+    }
+    .imag{
+        display:table-cell;
+        float:left;
+        margin-right:25px;
+        box-sizing:border-box;
+    }
+    .text{
+        display:table-cell;
+        float:left;
+        width:440px;
+        font-family:arial;
+        position:relative;
+        top:-15px;
+    }
+    .imag img{
+        padding:px;
+        height:350px;
+    }
+    .p h2{
+        background-color:#1B901F;
+        width:150px;
+        height:5px;
+        position:relative;
+        left:490px;
+        top:25px;
+    }
+    .tytle2{
+        display:table-cell;
+        float:right;
+        position:relative;
+        top:-15px;
+        left:-100px;
+        
+    }
+    .is2{
+        display:table;
+        position: 
+
+    }
+    .imag2{
+        display:table-cell;
+        float:left;
+        margin-right:25px;
+        box-sizing:border-box;
+    }
+    .text2{
+        display:table-cell;
+        float:left;
+        width:440px;
+        position:relative;
+        top:-8px;
+        left:-1px;
+        font-family:arial;
+
+    }
+     p  dylan{
+        color:green;
+    }
+    .imag2 img{
+        padding:px;
+        height:350px;
+    }
+    .r h2{
+        background-color:#1B901F;
+        width:150px;
+        height:5px;
+        position:relative;
+        left:490px;
+        top:30px;
+    }
+    .tytle3{
+        display:table-cell;
+        float:right;
+        position:relative;
+        top:-15px;
+        left:-100px;
+        
+    }
+    .is3{
+        display:table;
+
+    }
+    .imag3{
+        display:table-cell;
+        float:left;
+        margin-right:25px;
+        box-sizing:border-box;
+    }
+    .text3{
+        display:table-cell;
+        float:left;
+        width:440px;
+        font-family:arial;
+        position:relative;
+        top:-8px;
+        left:-1px;
+    }
+    .imag3 img{
+        height:350px;
+    }
+    .j h2{
+        background-color:#1B901F;
+        width:150px;
+        height:5px;
+        position:relative;
+        left:490px;
+        top:30px;
+    }
+
+    .tytle4{
+        display:table-cell;
+        float:right;
+        position:relative;
+        top:-15px;
+        left:-100px;
+        
+    }
+    .is4{
+        display:table;
+
+    }
+    .imag4{
+        display:table-cell;
+        float:left;
+        margin-right:25px;
+        box-sizing:border-box;
+    }
+    .text4{
+        display:table-cell;
+        float:left;
+        width:440px;
+        font-family:arial;
+        position:relative;
+        top:-8px;
+        left:-1px;
+    }
+    .imag4 img{
+        padding:px;
+        height:350px;
+    }
+    .corpo img{
+        padding-bottom:30px;
+    }
+    .d h2{
+        background-color:#1B901F;
+        width:150px;
+        height:5px;
+        position:relative;
+        left:490px;
+        top:30px;
+    }
+.margin{
+    margin:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------Menu-------------------------------*/
+body{
+	font-family:sans-serif;
+	background-image:url(../Los80/Pac-man.jpg); 
+	height:80vh;
+}
+
+.nav-bar{
+	background:#784CB3;
+	padding: 20px;
+	display: block;
+	color: white;
+	cursor: pointer;
+	font-size: 1.5em;
+	width: 100%;
+}
+.menu, .submenu{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.menu{
+	background:#784CB3;
+	width: 100%;
+	margin-left: -100%;
+	transition: all 0.5s;
+}
+.menu__link{
+	display: block;
+	padding: 20px;
+	color: white;
+	font-size: 1.2em;
+	text-decoration: none;
+}
+.menu__link:hover{
+	background:#a9567c;
+}
+.submenu .menu__link:hover{
+	background:#a9567c;
+}
+.submenu{ 
+	
+ height: 0;
+ overflow: hidden;
+ transition: all 0.3s;
+}
+
+.submenu .menu__link{
+	background:#5988A6;
+	padding-left: 50px;
+}
+.mostrar { 
+margin-left: 0;
+
+}
+
+@media(min-width:1024px){
+
+	.nav-bar{
+		display: none;
+	}
+	.menu{
+		margin-left: 0;
+		display: flex;/
+	}
+	.container-submenu{
+		position: :relative;
+	}
+	.submenu{
+		position: absolute;
+		top: 60px;
+		width: 200px;
+		overflow: visible;
+		z-i ndex: 1000;  
+		opacity: 0;
+		visibility: hidden;
+	}
+	.container-submenu:hover .submenu{
+		opacity: 1;
+		visibility: visible;
+
+	}
+}
+
+/*------------------------------Menu----------------------------------------*/
+
+/*-----------------------------Titulo---------------------------------------*/
+/*
+.body{
+	text-align:center;
+}
+h1{
+	display:inline-block;
+	position:relative;	
+	color:black;
+}
+
+h1::after,h1::before{
+	content:"";
+	position:absolute;
+	width:120px;
+	height:3px;
+	background-color:currentColor;
+	top:0.6em;
+}
+
+h1::before{
+	left:-140px;
+}
+h1::after{
+	right:-140px;
+}
+/*-----------------------------Titulo---------------------------------------*/
+
+/*-----------------------------Descricion------------------------------*/
+
+/*-----------------------------Video juegos------------------------------*/
+
+/*-----------------------------Video juegos------------------------------*/

@@ -1,0 +1,137 @@
+.nav-bar{
+  background:#AC8D8D;
+  padding: 20px;
+  display: block;
+  color: white;
+  cursor: pointer;
+  font-size: 1.5em;
+  width: 100%;
+}
+.menu, .submenu{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.menu{
+  background:#AC8D8D;
+  width: 100%;
+  margin-left: -100%;/*3 de iquierda a derecha*/
+  transition: all 0.5s;/*desplega el menu/*/
+}
+.menu__link{
+  display: block;
+  padding: 20px;
+  color: white;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+.menu__link:hover{
+  background:#a9567c;
+}
+.submenu .menu__link:hover{
+  background:#a9567c;
+}
+.submenu{ 
+  height: 0;
+  overflow: hidden;/*no se vea*/
+  transition: all 0.3s;
+}
+
+.submenu .menu__link{
+  background:#5988A6;
+  padding-left: 50px;
+}
+.mostrar { 
+  margin-left: 0;
+
+}
+
+@media(min-width:1024px){
+
+  .nav-bar{
+    display: none;
+  }
+  .menu{
+    margin-left: 0;
+    display: flex;/*horizontal*/
+  }
+  .container-submenu{
+    position: :relative;
+  }
+  .submenu{
+    position: absolute;
+    top: 60px;
+    width: 200px;
+    overflow: visible;
+    z-i ndex: 1000;  /*rebatible*/
+    opacity: 0;
+    visibility: hidden;
+  }
+  .container-submenu:hover .submenu{
+    opacity: 1;
+    visibility: visible;
+
+  }
+}
+
+/*--------------------Login----------------------*/
+body{
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+  background-image:url(./img/Messi.jpg); /*este codigo una imajen de fondo*/
+  background-size:cover;/*guarda la propiedad de la imagen*/ 
+}
+.box{
+  width:300px;
+  padding:0.4px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  background:#131311;
+  text-align:center;
+}
+.box{
+  color:white;
+  text-transform:uppercase;
+  font-weight:500;
+}
+.box input[type = "text"], .box input[type="password"]{
+  border:0; 
+  background:none;
+  display:block;
+  margin:20px auto;
+  text-align:center;
+  border:2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline:none;
+  color:white;
+  border-radius:24px;
+  transition:0.25s;
+}
+.box input[type="text"]:focus,.box input[type="password"]:focus{
+  width:280px;
+  border-color:#2ecc71;
+
+}
+.box input[type = "submit"]{
+  border:0; 
+  background:none;
+  display:block;
+  margin:20px auto;
+  text-align:center;
+  border:2px solid #2ecc71;
+  padding: 14px 40px;
+  outline:none;
+  color:white;
+  border-radius:24px;
+  transition:0.25s;
+  cursor:pointer;
+
+}
+.box input[type = "submit"]:hover{
+ background:#2ecc71;
+}
+/*--------------------Login----------------------*/

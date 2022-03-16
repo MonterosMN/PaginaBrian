@@ -1,0 +1,218 @@
+body{
+    margin:0;
+  padding:0;
+  font-family: sans-serif; 
+}
+}
+.nav-bar{
+    background:#784CB3;
+    padding: 20px;
+    display: block;
+    color: white;
+    cursor: pointer;
+    font-size: 1.5em;
+    width: 100%;
+    margin:0;
+}
+.menu, .submenu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu{
+    background:#AC8D8D;
+    width: 100%;
+    margin-left: -100%;/*3 de iquierda a derecha*/
+    transition: all 0.5s;/*desplega el menu/*/
+}
+.menu__link{
+    display: block;
+    padding: 20px;
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+.menu__link:hover{
+    background:#a9567c;
+}
+.submenu .menu__link:hover{
+    background:#a9567c;
+}
+.submenu{ 
+    height: 0;
+    overflow: hidden;/*no se vea*/
+    transition: all 0.3s;
+}
+
+.submenu .menu__link{
+    background:#5988A6;
+    padding-left: 50px;
+}
+.mostrar { 
+    margin-left: 0;
+
+}
+
+@media(min-width:1024px){
+
+    .nav-bar{
+        display: none;
+        margin:0;
+    }
+    .menu{
+        margin-left: 0;
+        display: flex;/*horizontal*/
+    }
+    .container-submenu{
+        position: :relative;
+    }
+    .submenu{
+        position: absolute;
+        top: 60px;
+        width: 200px;
+        overflow: visible;
+        z-i ndex: 1000;  /*rebatible*/
+        opacity: 0;
+        visibility: hidden;
+    }
+    .container-submenu:hover .submenu{
+        opacity: 1;
+        visibility: visible;
+
+    }
+/*.................*/
+*{
+    font-family: century gothic;
+}
+/*.................*/
+/*.............................................*/
+.margin{
+    padding:5px;
+    margin:5px;
+    font-family: century gothic;
+}
+h1{
+    text-align:center;
+    font-size:2.5em;
+    }
+/*..................Mario bros...................*/
+.corpo{
+    width:960px;
+    margin:auto;
+}
+.corpo img{
+    padding-bottom:30px;
+}
+.tytle{
+    display:table-cell;
+    float:right;
+    position:relative;
+    left:-180px;
+    top:-15px;
+}
+.is{
+    display:table;
+}
+.imag{
+    display:table-cell;
+    float:left;
+    margin-right:25px;
+    box-sizing:border-box;
+}
+.text{
+    display:table-cell;
+    float:left;
+    width:440px;
+    position:relative;
+    top:-15px;
+}
+/*..................Mario bros...................*/
+
+/*..............Sony......................*/
+.tytle2{
+    display:table-cell;
+    float:right;
+    position:relative;
+    top:-15px;
+    left:-100px;
+}
+.is2{
+    display:table;
+}
+.imag2{
+    display:table-cell;
+    float:left;
+    margin-right:25px;
+    box-sizing:border-box;
+}
+.text2{
+    display:table-cell;
+    float:left;
+    width:440px;
+    position:relative;
+    top:10px;
+    left:-1px;
+}
+/*...................Sony.......................*/
+.imag2 img{
+    padding:15px;
+    height:350px;
+}
+.tytle3{
+    display:table-cell;
+    float:right;
+    position:relative;
+    top:-15px;
+    left:-100px;  
+}
+.is3{
+    display:table;
+}
+.imag3{
+    display:table-cell;
+    float:left;
+    margin-right:25px;
+    box-sizing:border-box;
+}
+.text3{
+    display:table-cell;
+    float:left;
+    width:440px;
+    position:relative;
+    top:-8px;
+    left:-1px;
+}
+.imag3 img{
+    height:350px;
+}
+    
+.tytle4{
+    display:table-cell;
+    float:right;
+    position:relative;
+    top:-15px;
+    left:-100px;
+}
+.is4{
+    display:table;
+}
+.imag4{
+    display:table-cell;
+    float:left;
+    margin-right:25px;
+    box-sizing:border-box;
+}
+.text4{
+    display:table-cell;
+    float:left;
+    width:440px;
+    position:relative;
+    top:-8px;
+        left:-1px;
+}
+.imag4 img{
+    padding:px;
+    height:350px;
+}
+
+/*.............................................*/

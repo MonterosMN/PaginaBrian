@@ -1,0 +1,97 @@
+*{
+	box-sizing:  border-box;
+}
+body{
+
+	margin: 0;
+}
+.nav-bar{
+	background:#AC8D8D;
+	padding: 20px;
+	display: block;
+	color: white;
+	cursor: pointer;
+	font-size: 1.5em;
+	width: 100%;
+}
+.menu, .submenu{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.menu{
+	background:#AC8D8D;
+	width: 100%;
+	margin-left: -100%;/*3 de iquierda a derecha*/
+	transition: all 0.5s;/*desplega el menu/*/
+}
+.menu__link{
+	display: block;
+	padding: 20px;
+	color: white;
+	font-size: 1.2em;
+	text-decoration: none;
+}
+.menu__link:hover{
+	background:#a9567c;
+}
+.submenu .menu__link:hover{
+	background:#a9567c;
+}
+.submenu{ 
+	height: 0;
+	overflow: hidden;/*no se vea*/
+	transition: all 0.3s;
+}
+
+.submenu .menu__link{
+	background:#5988A6;
+	padding-left: 50px;
+}
+.mostrar { 
+	margin-left: 0;
+
+}
+.text12{
+	margin-left: 90px;
+	margin-right: 90px;
+	}
+
+
+@media(min-width:1024px){
+
+	.nav-bar{
+		display: none;
+	}
+	.menu{
+		margin-left: 0;
+		display: flex;/*horizontal*/
+	}
+	.container-submenu{
+		position: :relative;
+	}
+	.submenu{
+		position: absolute;
+		top: 60px;
+		width: 200px;
+		overflow: visible;
+		z-i ndex: 1000;  /*rebatible*/
+		opacity: 0;
+		visibility: hidden;
+	}
+	.container-submenu:hover .submenu{
+		opacity: 1;
+		visibility: visible;
+
+	}
+}
+
+.var{
+	text-align-last: center;
+}
+.cancha{
+	width: 30%
+}
+.var2{
+	width: 40%
+}
